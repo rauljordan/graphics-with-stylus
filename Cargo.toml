@@ -1,0 +1,21 @@
+[package]
+name = "graphics-with-stylus"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+embedded-graphics = "0.8.1"
+stylus-sdk = { git = "https://github.com/OffchainLabs/stylus-sdk-rs" }
+wee_alloc = "0.4.5"
+
+[features]
+export-abi = ["stylus-sdk/export-abi"]
+
+[profile.release]
+codegen-units = 1
+strip = true
+lto = true
+panic = "abort"
+opt-level = "s"
+
+[workspace]
