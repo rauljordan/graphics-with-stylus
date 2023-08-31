@@ -5,10 +5,8 @@ This repo contains an example on deploying a Rust embedded graphics library as a
 Although it does nothing with the input at the moment, it is available at address `0x7236441bf4e4c211e4bcc62bd86e1922e351129d` and accessible via the testnet JSON-RPC URL: https://stylus-testnet.arbitrum.io/rpc. Here were the transaction to deploy it and activate it onchain:
 
 
-```
-deploy: 0x89b54d216793c3e0ff5dd1c40330d4abea1690d5517dcc65ae8d4a1d5dd1d293
-activate: 0xaccfcc06c5acd653863843389eb83399193ffccf5eafd80913a64509a304dfb5
-```
+**deploy:** [0x89b54d216793c3e0ff5dd1c40330d4abea1690d5517dcc65ae8d4a1d5dd1d293](https://stylus-testnet-explorer.arbitrum.io/tx/0x89b54d216793c3e0ff5dd1c40330d4abea1690d5517dcc65ae8d4a1d5dd1d293)
+**activate:** [0xaccfcc06c5acd653863843389eb83399193ffccf5eafd80913a64509a304dfb5](https://stylus-testnet-explorer.arbitrum.io/tx/0xaccfcc06c5acd653863843389eb83399193ffccf5eafd80913a64509a304dfb5)
 
 Imagine doing _this_ in Solidity:
 
